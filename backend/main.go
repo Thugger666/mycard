@@ -80,11 +80,16 @@ func corsMiddleware(next http.Handler) http.Handler {
 }
 
 func handleViews(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost {
+	var count int64
+	switch r.Method {
+	case http.MethodPost:
+		count = viewCount.Add(1)
+	case http.MethodGet:
+		count = viewCount.Load()
+	default:
 		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
 		return
 	}
-	count := viewCount.Add(1)
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(map[string]int64{"views": count})
 }
