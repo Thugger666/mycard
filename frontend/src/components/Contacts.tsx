@@ -8,8 +8,8 @@ interface Contact {
 const CONTACTS: Contact[] = [
   {
     name: 'Telegram',
-    handle: '@your_handle',
-    href: 'https://t.me/your_handle',
+    handle: '@thuger6',
+    href: 'https://t.me/thuger6',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="#60a5fa" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21.5 4.5L2.5 10.5l6 2 2 6 3-4 5 4 3-14z"/>
@@ -18,8 +18,8 @@ const CONTACTS: Contact[] = [
   },
   {
     name: 'Instagram',
-    handle: '@your_handle',
-    href: 'https://instagram.com/your_handle',
+    handle: '@antoha.n_',
+    href: 'https://instagram.com/antoha.n_',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="#e879f9" strokeWidth="1.7" strokeLinecap="round">
         <rect x="2" y="2" width="20" height="20" rx="5"/>
@@ -30,8 +30,8 @@ const CONTACTS: Contact[] = [
   },
   {
     name: 'Email',
-    handle: 'your@email.com',
-    href: 'mailto:your@email.com',
+    handle: 'toninuss@bk.ru',
+    href: 'mailto:toninuss@bk.ru',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="#34d399" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="4" width="20" height="16" rx="2"/>
@@ -40,13 +40,13 @@ const CONTACTS: Contact[] = [
     ),
   },
   {
-    name: 'LinkedIn',
-    handle: 'your_handle',
-    href: 'https://linkedin.com/in/your_handle',
+    name: 'Сетка',
+    handle: 'setka.ru',
+    href: 'https://setka.ru/users/019d2a55-8f5a-7720-921e-aa7a98989813',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="#60a5fa" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-        <rect x="2" y="2" width="20" height="20" rx="4"/>
-        <path d="M7 10v7M7 7v.01M12 10v7M12 13a3 3 0 016 0v4"/>
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/>
       </svg>
     ),
   },
