@@ -1,0 +1,6 @@
+frontend/node_modules/
+frontend/dist/
+backend/static/
+backend/antoncard.exe
+backend/antoncard
+*.exe

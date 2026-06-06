@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Антон Нусс — Ведущий аналитик</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Unbounded:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<div class="noise"></div>
+<canvas id="bg-canvas"></canvas>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-accent"></div>
+    <div class="hero-accent2"></div>
+
+    <div class="hero-top">
+      <div>
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          <span class="eyebrow-line"></span>
+          аналитик данных · визитка
+        </div>
+        <h1 class="hero-name">
+          <span class="glitch" data-text="Антон">Антон</span>
+          <span class="glitch" data-text="Нусс">Нусс</span>
+        </h1>
+        <div class="hero-role">
+          Ведущий аналитик данных<span class="cursor-blink"></span>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          Открыт к предложениям
+        </div>
+        <div class="year-badge">2026</div>
+      </div>
+    </div>
+
+    <div class="hero-divider">
+      <div class="hero-block">
+        <div class="hero-block-label">// О себе</div>
+        <div class="hero-block-text">
+          Строю data-пайплайны и аналитические дашборды.<br>
+          Превращаю сырые данные в понятные инсайты — от сбора до визуализации.
+          Работаю с облачными хранилищами, ETL-трансформациями и BI-инструментами.
+        </div>
+      </div>
+      <div class="hero-divider-sep"></div>
+      <div class="hero-block">
+        <div class="hero-block-label">// Метрики</div>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">3<span>+</span></div>
+            <div class="stat-label">лет опыта</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">14<span></span></div>
+            <div class="stat-label">инструментов</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">∞</div>
+            <div class="stat-label">запросов</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="section s2">
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <span class="sec-title">Технологический стек</span>
+      <div class="sec-line"></div>
+      <span class="sec-badge">14 инструментов</span>
+    </div>
+
+    <div class="pipeline">
+      <div class="pipe-row">
+        <div class="pipe-label">
+          <span class="pipe-label-ru">Трекинг</span>
+          <span class="pipe-label-en">Tracking</span>
+        </div>
+        <div class="pipe-tags-wrap">
+          <span class="ptag">Renta</span>
+          <span class="ptag">Avo</span>
+          <span class="ptag">Segment</span>
+        </div>
+      </div>
+      <div class="pipe-connector">↓ сбор и интеграция</div>
+      <div class="pipe-row">
+        <div class="pipe-label">
+          <span class="pipe-label-ru">Сбор · Интеграция</span>
+          <span class="pipe-label-en">Collection · ETL</span>
+        </div>
+        <div class="pipe-tags-wrap">
+          <span class="ptag">Renta</span>
+          <span class="ptag">Fivetran</span>
+          <span class="ptag">Stitch</span>
+          <span class="ptag">Singer</span>
+        </div>
+      </div>
+      <div class="pipe-connector">↓ хранилище</div>
+      <div class="pipe-row">
+        <div class="pipe-label">
+          <span class="pipe-label-ru">Хранилище</span>
+          <span class="pipe-label-en">Warehousing</span>
+        </div>
+        <div class="pipe-tags-wrap">
+          <span class="ptag">BigQuery</span>
+          <span class="ptag">Snowflake</span>
+          <span class="ptag">Redshift</span>
+          <span class="ptag">ClickHouse</span>
+          <span class="ptag">Databricks</span>
+        </div>
+      </div>
+      <div class="pipe-connector">↓ трансформация</div>
+      <div class="pipe-row">
+        <div class="pipe-label">
+          <span class="pipe-label-ru">Трансформация</span>
+          <span class="pipe-label-en">Transformation</span>
+        </div>
+        <div class="pipe-tags-wrap">
+          <span class="ptag">dbt</span>
+          <span class="ptag">Airflow</span>
+        </div>
+      </div>
+      <div class="pipe-connector">↓ визуализация</div>
+      <div class="pipe-row">
+        <div class="pipe-label">
+          <span class="pipe-label-ru">Отчётность</span>
+          <span class="pipe-label-en">Reporting & BI</span>
+        </div>
+        <div class="pipe-tags-wrap">
+          <span class="ptag">Tableau</span>
+          <span class="ptag">Looker</span>
+          <span class="ptag">Power BI</span>
+          <span class="ptag">Metabase</span>
+          <span class="ptag">Mode</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section s3">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <span class="sec-title">Контакты</span>
+      <div class="sec-line"></div>
+    </div>
+
+    <div class="contacts-grid">
+      <a href="https://t.me/your_handle" class="c-card">
+        <div class="c-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21.5 4.5L2.5 10.5l6 2 2 6 3-4 5 4 3-14z"/>
+          </svg>
+        </div>
+        <div class="c-info">
+          <div class="c-name">Telegram</div>
+          <div class="c-handle">@your_handle</div>
+        </div>
+        <span class="c-arr">↗</span>
+      </a>
+
+      <a href="https://instagram.com/your_handle" class="c-card">
+        <div class="c-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e879f9" stroke-width="1.7" stroke-linecap="round">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="#e879f9" stroke="none"/>
+          </svg>
+        </div>
+        <div class="c-info">
+          <div class="c-name">Instagram</div>
+          <div class="c-handle">@your_handle</div>
+        </div>
+        <span class="c-arr">↗</span>
+      </a>
+
+      <a href="mailto:your@email.com" class="c-card">
+        <div class="c-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 7l10 7 10-7"/>
+          </svg>
+        </div>
+        <div class="c-info">
+          <div class="c-name">Email</div>
+          <div class="c-handle">your@email.com</div>
+        </div>
+        <span class="c-arr">↗</span>
+      </a>
+
+      <a href="https://linkedin.com/in/your_handle" class="c-card">
+        <div class="c-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="4"/>
+            <path d="M7 10v7M7 7v.01M12 10v7M12 13a3 3 0 016 0v4"/>
+          </svg>
+        </div>
+        <div class="c-info">
+          <div class="c-name">LinkedIn</div>
+          <div class="c-handle">your_handle</div>
+        </div>
+        <span class="c-arr">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-left">
+      <span>anton.nuss © 2026</span>
+      <span class="footer-tag">data analyst</span>
+      <span class="footer-tag">BI</span>
+    </div>
+    <span>данные · аналитика · инсайты</span>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
